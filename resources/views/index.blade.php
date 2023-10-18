@@ -130,7 +130,7 @@
                     <form action="{{'/product/'.$item->id}}" method="post" class="mb-2">
                         @csrf
                         @method("DELETE")
-                        <button type="submit" onclick="return confirm('yakin ingin menghapus produk ini?');" class="font-medium text-red-600 dark:text-red-500 hover:underline">delete</button>
+                        <button type="submit" onclick="return confirm('yakin ingin menghapus produk ini?');" class="font-medium text-red-600 dark:text-red-500 hover:underline">Delete</button>
                     </form>
                 </td>
             </tr>
